@@ -84,41 +84,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Colors stored in theme variables using SASS.
 - Remove toast temporarily until decide best approach.
 
-## [1.3.6] - 
-
-**Global**
-
-- Added the ability to reset all states to default in the extension. ✅
-
-## Style fixes
-
-- Different color shadows depending on the themes. 
-- Improve Branch Convention screen readability.
-- Add warning icon to errors.
-- Style tab underline separately.
-- Style Task Prefix Sections if possible.
-- Style tooltips differently according to the theme.
-
-## Low priority known bugs
-
-- When changing tab after copying command/branch toast must close.
-
-## [1.3.6] - WIP 👷‍♂️
+## [1.3.6] - 2025-01-12 🚀
 
 **Global**
 
 - Added the ability to reset all states to default in the extension.
+
+## Style fixes
+
+- Improve Branch Convention screen readability.
+- Add warning icon to errors.
+- Style Task Prefix Sections.
+- Style tab underline separately.
+
+## [1.3.7] - WIP 👷‍♂️
+
+**Global**
+
 - Add the possibility of import/export config.
 
 ## Style fixes
 
 - Different color shadows depending on the themes.
-- Improve Branch Convention screen readability.
-- Add warning icon to errors.
-- Style tab underline separately.
-- Style Task Prefix Sections if possible.
 - Style tooltips differently according to the theme.
 
 ## Low priority known bugs
 
 - When changing tab after copying command/branch toast must close.
+- When error is displayed and you start writing again error remains there.
