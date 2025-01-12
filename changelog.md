@@ -88,6 +88,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Global**
 
+- Add the possibility of import/export config (beta).
 - Added the ability to reset all states to default in the extension.
 
 ## Style fixes
@@ -101,12 +102,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Global**
 
-- Add the possibility of import/export config.
+- Allow import partial config.
 
 ## Style fixes
 
 - Different color shadows depending on the themes.
 - Style tooltips differently according to the theme.
+- Style buttons in config / Differentiate danger zone from previous options
 
 ## Low priority known bugs
 
