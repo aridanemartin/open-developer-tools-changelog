@@ -116,6 +116,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **Global**
 
 - Allow import partial config.
+- Make the posibility of alternate between random word / word written by user.
+- Section to give credit to API's used in the extension.
 
 ## Style fixes
 
@@ -125,5 +127,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Low priority known bugs
 
-- When changing tab after copying command/branch toast must close.
 - When error is displayed and you start writing again error remains there.
