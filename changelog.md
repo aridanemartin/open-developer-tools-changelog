@@ -98,7 +98,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Style Task Prefix Sections.
 - Style tab underline separately.
 
-## [1.3.7] - WIP 👷‍♂️
+## [1.3.7] - 2025
+
+**Release Branch section**
+
+- Renamed 'Refetch' button to 'Generate' for consistency with similar buttons.
+- Branch parts no longer move to the end automatically to prevent confusion when enabling/disabling parts.
+- Restructured UI to place branch parts sections closer to the resulting branch.
+- Repositioned 'Reset Data' button for consistency across pages.
+
+## Low priority known bugs
+
+- When changing tab after copying command/branch toast must close.
+
+## [1.3.8] - WIP 👷‍♂️
 
 **Global**
 
