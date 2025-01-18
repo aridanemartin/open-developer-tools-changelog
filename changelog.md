@@ -113,7 +113,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Danger zone added to the config section.
 - Added download / upload icons.
 
-## Bugs fixed
+**Bugs fixed**
 
 - When changing tab after copying command/branch toast now closes properly.
 
