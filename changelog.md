@@ -98,7 +98,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Style Task Prefix Sections.
 - Style tab underline separately.
 
-## [1.3.7] - 2025
+## [1.3.7] - 2025-01-18 🚀
 
 **Release Branch section**
 
@@ -107,11 +107,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Restructured UI to place branch parts sections closer to the resulting branch.
 - Repositioned 'Reset Data' button for consistency across pages.
 
-## Low priority known bugs
+**Config section**
 
-- When changing tab after copying command/branch toast must close.
+- Improved styling
+- Danger zone added to the config section.
+- Added download / upload icons.
 
-## [1.3.8] - WIP 👷‍♂️
+## Bugs fixed
+
+- When changing tab after copying command/branch toast now closes properly.
+
+## Coming soon... 👷‍♂️
 
 **Global**
 
@@ -119,12 +125,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Make the posibility of alternate between random word / word written by user.
 - Section to give credit to API's used in the extension.
 
-## Style fixes
+**Config section**
 
-- Different color shadows depending on the themes.
-- Style tooltips differently according to the theme.
-- Style buttons in config / Differentiate danger zone from previous options
+- Add warning message when trying to reset to default preferences.
 
 ## Low priority known bugs
 
-- When error is displayed and you start writing again error remains there.
+- When error is displayed and you start writing again error remains there until you change page or scrapes again.
