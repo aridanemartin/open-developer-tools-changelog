@@ -5,9 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.4.0] - 2025-08-17 🚀
+## [1.4.0] - 2025-09-03 🚀
+
+### Removed
+
+- Release branch section temporarily removed to focus on the most important features.
 
 ### Added
+
+**QuickStore section**
+
+- Added the ability to add items to the quick store.
+- Added the ability to remove items from the quick store.
+- Added the ability to search for items in the quick store.
+- Added the ability to add items to the quick store.
+- Added the ability to remove items from the quick store.
+
+**GitHub Search section**
+
+- Added the ability to search for repositories by name.
+- Added the ability to add repositories to favorites.
+- Added the ability to remove repositories from favorites.
+- Added the ability to search for repositories by name.
+- Added the ability to add repositories to favorites.
+- Added the ability to remove repositories from favorites.
 
 **GitHub Booster section**
 
