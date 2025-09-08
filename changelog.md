@@ -5,6 +5,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.2] - 2025-01-08 🚀
+
+## [1.4.1] - 2025-01-04 🚀
+
+### Fixed
+
+**Config section**
+
+- Fixed download JSON functionality to include complete state data, ensuring all preferences fields are present in exported files.
+- Improved upload JSON functionality with backward compatibility support for old preference files.
+- Enhanced validation to handle partial state objects, allowing seamless imports from older versions.
+- Updated error messages to provide clearer feedback during import/export operations.
+- Fixed theme selection export to ensure `selectedColorTheme` and all nested configuration objects are properly included in JSON exports.
+- Implemented deep merging for export functionality to prevent loss of nested object properties during state serialization.
+
+### Technical Implementation
+
+- Created `exportPreferences.ts` helper with complete state merging functionality.
+- Created `importPreferences.ts` helper with recursive deep merge for backward compatibility.
+- Improved JSON formatting in exported files with proper indentation for better readability.
+- Enhanced error handling with more descriptive error messages.
+- Configured Jest testing framework with TypeScript and ES modules support.
+- Created comprehensive test suites for both import and export functionality with 37 passing tests.
+- Added test scripts: `npm test`, `npm run test:watch`, `npm run test:coverage`, and `npm run test:ci`.
+- Implemented DOM testing with jsdom environment for download functionality testing.
+- Created `.cursorrules` file with test writing guidelines to avoid comments in test files.
+
 ## [1.4.0] - 2025-09-03 🚀
 
 ### Removed
