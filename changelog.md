@@ -5,7 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.4.2] - 2025-01-08 🚀
+## [1.5.0] - Working on PostMessage Debugger 👷🏻‍♂️
+
+### Added
+
+**PostMessage Debugger section**
+
+- Enhanced PostMessage events list with improved visual styling matching QuickCopyTab design.
+- Applied consistent border, border-radius, and hover effects to PostMessage items.
+- Added proper icon filtering using `var(--icon-main-color-filter)` for all action buttons.
+- Improved favorite button styling with special orange/yellow filter when favorited.
 
 ## [1.4.1] - 2025-01-04 🚀
 
