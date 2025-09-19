@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.1] - 2025-01-27 🚀
+
+### Fixed
+
+**GitHub Booster section**
+
+- Fixed PR validation not working when navigating to compare page and clicking "Create pull request" without page reload.
+- Enhanced MutationObserver to better detect dynamically loaded PR forms with additional selectors.
+- Added event listener for "Create pull request" button clicks to handle dynamic form loading.
+- Implemented periodic check as fallback mechanism to ensure PR validation works on compare pages.
+- Improved DOM change detection with better timing and more comprehensive selectors.
+
+### Technical Implementation
+
+- Added `setupCreatePRButtonListener()` method to catch button clicks and trigger validation setup.
+- Enhanced MutationObserver with additional form selectors for better detection coverage.
+- Implemented periodic check interval (1 second) specifically for compare pages as fallback.
+- Added proper cleanup for new interval timer in destroy method.
+- Used event delegation with capture phase for early event detection.
+
 ## [1.5.0] - Working on PostMessage Debugger 👷🏻‍♂️
 
 ### Added
