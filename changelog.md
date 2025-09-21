@@ -5,12 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.5.1] - 2025-01-27 🚀
+## [1.5.1] - 2025-09-21 🚀
+
+### Added
+
+**Config section**
+- Added confirmation dialog for reset all settings.
+- Split configuration into multiple tabs for better organization.
 
 ### Fixed
 
+**QuickCopy section**
+- Improved styled for quick copy items.
+- Rename every deprecated code from QuickStore to QuickCopy.
+
 **GitHub Booster section**
 
+- PR title validation is now enabled by default for new users.
+- Removed configuration from GitHub Booster section.
+- Improved texts for better readability.
 - Fixed PR validation not working when navigating to compare page and clicking "Create pull request" without page reload.
 - Enhanced MutationObserver to better detect dynamically loaded PR forms with additional selectors.
 - Added event listener for "Create pull request" button clicks to handle dynamic form loading.
@@ -25,7 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added proper cleanup for new interval timer in destroy method.
 - Used event delegation with capture phase for early event detection.
 
-## [1.5.0] - Working on PostMessage Debugger 👷🏻‍♂️
+## [1.5.0] - Working on PostMessage Debugger 
 
 ### Added
 
@@ -33,7 +46,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Enhanced PostMessage events list with improved visual styling matching QuickCopyTab design.
 - Applied consistent border, border-radius, and hover effects to PostMessage items.
-- Added proper icon filtering using `var(--icon-main-color-filter)` for all action buttons.
 - Improved favorite button styling with special orange/yellow filter when favorited.
 
 ## [1.4.1] - 2025-01-04 🚀
@@ -69,13 +81,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-**QuickStore section**
+**QuickCopy section**
 
-- Added the ability to add items to the quick store.
-- Added the ability to remove items from the quick store.
-- Added the ability to search for items in the quick store.
-- Added the ability to add items to the quick store.
-- Added the ability to remove items from the quick store.
+- Added the ability to add items to the quick copy.
+- Added the ability to remove items from the quick copy.
+- Added the ability to search for items in the quick copy.
+- Added the ability to add items to the quick copy.
+- Added the ability to remove items from the quick copy.
 
 **GitHub Search section**
 
