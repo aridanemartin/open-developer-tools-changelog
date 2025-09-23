@@ -5,6 +5,44 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.0] - TBD
+
+### Added
+
+**Tab Management System**
+- Added tab management functionality with hide/show capabilities.
+- Users can now enable/disable individual tabs from the extension interface.
+- Tab reordering functionality for customizing tab display order.
+
+### Technical Implementation
+
+**Tab System Refactoring**
+- Refactored tab system to use semantic string identifiers instead of numeric values.
+- Created `useTabManager` custom hook to extract complex tab logic from App component.
+- Improved code maintainability by centralizing tab management logic.
+- Enhanced tab system to be future-proof when adding or removing tabs.
+- Updated all tab references to use semantic identifiers (`git-branch-generator`, `config`, etc.).
+- Simplified tab structure by removing redundant `value` property, using only `id`.
+
+**Playwright Test Organization**
+- Reorganized Playwright tests by tab functionality for better maintainability.
+- Created dedicated test folders for each tab: `GitBranchGenerator`, `QuickCopy`, `GitHubSearch`, `GithubBooster`, `PostMessageDebugger`, `Config`.
+- Added generic app tests folder for cross-tab functionality tests.
+- Updated test file naming from `task-branch.spec.ts` to `git-branch-generator.spec.ts` for consistency.
+- Enhanced `ExtensionHelpers` with `navigateToTab()` method for easier tab-specific testing.
+- Added comprehensive npm scripts for running tests by tab or functionality:
+  - `npm run test:e2e:all` - Run all Playwright tests
+  - `npm run test:e2e:app` - Run generic app tests
+  - `npm run test:e2e:git-branch` - Run GitBranchGenerator tests
+  - `npm run test:e2e:quick-copy` - Run QuickCopy tests
+  - `npm run test:e2e:github-search` - Run GitHubSearch tests
+  - `npm run test:e2e:github-booster` - Run GithubBooster tests
+  - `npm run test:e2e:postmessage` - Run PostMessageDebugger tests
+  - `npm run test:e2e:config` - Run Config tests
+- Maintained backward compatibility by keeping `taskBranch` state property while using `git-branch-generator` for tab identification.
+- Updated test data and validation to support the new organization structure.
+- Added comprehensive documentation for the new test structure in `tests/e2e/specs/README.md`.
+
 ## [1.5.1] - 2025-09-21 🚀
 
 ### Added
