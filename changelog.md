@@ -5,7 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.6.0] - TBD
+## [1.6.0] - 24/9/2025 🚀
+
+### Changed
+
+**Default Message Colors**
+- Updated default GitHub Booster message colors to use a dark theme:
+  - Background Color: `#011627` (dark blue)
+  - Text Color: `#a7d9cf` (light teal)
+  - Border Color: `#a7dacf` (light teal)
 
 ### Added
 
@@ -13,6 +21,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added tab management functionality with hide/show capabilities.
 - Users can now enable/disable individual tabs from the extension interface.
 - Tab reordering functionality for customizing tab display order.
+
+**Default Examples**
+- Added default examples to QuickCopy tab with common code snippets and commands.
+- Added default examples to PostMessageDebugger tab with typical postMessage scenarios.
+- Examples include authentication, navigation, and data update patterns for better user onboarding.
+
+**PostMessageDebugger Styling Improvements**
+- Enhanced item description styling to match QuickCopy tab design consistency.
+- Improved target origin text visibility with main font color styling.
+- Added text truncation with ellipsis for long target origins (max-width: 350px).
+- Enhanced visual hierarchy with better typography and spacing.
+- Improved layout responsiveness for better user experience.
 
 ### Technical Implementation
 
