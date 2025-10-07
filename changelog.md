@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.1] - TBD
+
+### Changed
+
+**Configuration Organization**
+- Moved "Auto-scrape from task managers" setting from General tab to Features tab
+- Added new "Git branch generator" section in Features tab to organize branch generation settings
+
+**PostMessage Debugger UI**
+- Updated PostMessage Debugger to use MuiTabs with same indicator styles as QuickCopy
+- Replaced custom tab implementation with Material-UI Tabs component for consistency
+
+**Configuration UI**
+- Updated Config component to use MuiTabs with same indicator styles as QuickCopy and PostMessage Debugger
+- Replaced custom tab implementation with Material-UI Tabs component for consistency across all components
+
 ## [1.6.0] - 24/9/2025 🚀
 
 ### Changed
