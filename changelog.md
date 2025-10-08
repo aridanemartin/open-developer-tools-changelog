@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.6.1] - TBD
 
+### Added
+
+**Git Branch Generator Configuration**
+- Added "Reset type of task and task prefix after copying the branch" option in Features tab
+- When enabled, automatically resets the type of task and task prefix fields to their default values after copying the generated branch name
+- Default value is unchecked (disabled)
+
 ### Changed
 
 **Configuration Organization**
