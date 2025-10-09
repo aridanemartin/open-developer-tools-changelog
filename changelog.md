@@ -23,6 +23,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **PostMessage Debugger UI**
 - Updated PostMessage Debugger to use MuiTabs with same indicator styles as QuickCopy
 - Replaced custom tab implementation with Material-UI Tabs component for consistency
+- Removed "Send & Save" button from PostMessage form actions
+- Repositioned Save button to the left and Send button to the right
+- Added save icon to Save button for better visual clarity
+- Both buttons now occupy equal space for balanced layout
+
+**QuickCopy UI**
+- Added + button next to search bar in QuickCopy tab for quick navigation to create item tab
+- + button matches PostMessageDebugger functionality and styling
+- Improved user experience with direct access to item creation
 
 **Configuration UI**
 - Updated Config component to use MuiTabs with same indicator styles as QuickCopy and PostMessage Debugger
