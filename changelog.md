@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.6.1] - TBD
+## [1.7.0] - TBD
 
 ### Added
 
@@ -13,6 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added "Reset type of task and task prefix after copying the branch" option in Features tab
 - When enabled, automatically resets the type of task and task prefix fields to their default values after copying the generated branch name
 - Default value is unchecked (disabled)
+- Added "None" option to command dropdown for copying branch names without git commands
+
+**Quick Actions**
+- Added "Quick Actions" section in Config → General tab
+- Added "Refresh all Chrome tabs" button in secondary navigation strip
+- Added "Zen mode" button in secondary navigation strip that closes all tabs except the current one
+- Added confirmation dialogs for both quick actions (configurable in settings)
+- Error handling when attempting Zen mode with only one tab open
 
 ### Changed
 
