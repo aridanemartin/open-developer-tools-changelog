@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - 2026-01-26 🚀
+
+### Added
+- Secondary Navigation: Added Font Picker quick action to inspect fonts on the active page, with hover/click activation modes.
+- Config: Added Font Picker activation mode setting and default task-type selector for the reset-after-copy workflow.
+
+### Changed
+
+### Fixed
+
 ## [1.7.0] - 2/1/2026 🚀
 
 ### Added
@@ -321,4 +331,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Branch can be formed without task name if wanted.
 - Jira buttons are replaced with Asana buttons in the title when using Asana.
-
