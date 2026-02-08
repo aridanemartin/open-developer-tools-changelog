@@ -5,15 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased] - 2026-01-26 🚀
+## [1.8.0] - 2026-02-08 🚀
 
 ### Added
-- Secondary Navigation: Added Font Picker quick action to inspect fonts on the active page, with hover/click activation modes.
-- Config: Added Font Picker activation mode setting and default task-type selector for the reset-after-copy workflow.
 
-### Changed
+**Font Picker**
+- Added Font Picker quick action in secondary navigation to inspect fonts on the active page.
+- Control panel with click/hover mode toggle, left/right position toggle, and exit button.
+- Configurable panel placement (left/right) with animated position transitions.
+- HEX/RGB color format toggle with persistent preference.
+- "Copy All Styling" button to copy all font properties at once.
+- Clickable property values with inline copy icons replacing old "Copy" buttons.
+- Toast notifications for copy feedback.
+- Color swatch preview in the card header.
+- Click-to-lock in hover mode: click freezes selection, click again resumes live hover.
 
-### Fixed
+**Config**
+- Added Font Picker activation mode setting (click/hover).
+- Added Font Picker panel placement setting (left/right).
+- Added Font Picker color format setting (HEX/RGB).
+- Added default task-type selector for the reset-after-copy workflow.
 
 ## [1.7.0] - 2/1/2026 🚀
 
